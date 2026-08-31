@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TernakGurita - Budidaya Gurita Berkualitas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+        header {
+            background-color: #0077be;
+            color: white;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 1.5rem;
+            font-weight: bold;
+        }
+        .hero {
+            background: #e0f7fa;
+            text-align: center;
+            padding: 4rem 2rem;
+        }
+        .hero h1 {
+            color: #004d40;
+            margin-bottom: 1rem;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 2rem 0;
+        }
+        .grid {
+            display: flex;
+            gap: 2rem;
+            justify-content: space-between;
+        }
+        .card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1.5rem;
+            flex: 1;
+            background: #fff;
+        }
+        footer {
+            background-color: #0288d1;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            max-width: 500px;
+        }
+        input, textarea, button {
+            padding: 0.8rem;
+            font-size: 1rem;
+        }
+        button {
+            background-color: #0077be;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <h2>TernakGurita</h2>
+        </div>
+        <nav>
+            <a href="#tentang">Tentang</a>
+            <a href="#layanan">Layanan</a>
+            <a href="#kontak">Kontak</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Solusi Budidaya & Pasokan Gurita Segar</h1>
+        <p>Menyediakan benih, hasil panen gurita berkualitas tinggi, dan panduan budidaya modern.</p>
+    </section>
+
+    <div class="container" id="tentang">
+        <h2>Keunggulan Kami</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Kualitas Segar</h3>
+                <p>Gurita dipanen dari lingkungan budidaya terkontrol untuk menjaga kesegaran dan mutu tekstur daging.</p>
+            </div>
+            <div class="card">
+                <h3>Teknologi Ramah Lingkungan</h3>
+                <p>Menggunakan sistem sirkulasi air modern yang menjaga kelestarian ekosistem laut.</p>
+            </div>
+            <div class="card">
+                <h3>Pendampingan Mitra</h3>
+                <p>Konsultasi khusus bagi calon peternak yang ingin memulai budidaya gurita secara efisien.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="kontak">
+        <h2>Hubungi Kami</h2>
+        <form>
+            <label for="nama">Nama Lengkap:</label>
+            <input type="text" id="nama" placeholder="Masukkan nama Anda" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Masukkan email Anda" required>
+
+            <label for="pesan">Pesan atau Pertanyaan:</label>
+            <textarea id="pesan" rows="4" placeholder="Tuliskan kebutuhan Anda..." required></textarea>
+
+            <button type="submit">Kirim Pesan</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 TernakGurita. Seluruh hak cipta dilindungi.</p>
+    </footer>
+
+</body>
+</html> 
